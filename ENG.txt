@@ -1,2 +1,0 @@
-Everything is done in python in processing
-You definitely need processing in python, even in idle it will not work
