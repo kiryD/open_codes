@@ -1,0 +1,16 @@
+x = 0
+mode = "right"
+def setup():
+    size(600,400)
+def draw():
+    global x, mode
+    background(0)
+    ellipse(x,200,40,40)
+    if mode == "right":
+        x = x + 20
+    if mode == "left":
+        x = x - 20
+    if x >= 600:
+        mode = "left"
+    if x <= 0:
+        mode = "right"
