@@ -1,16 +1,11 @@
-#Рандом
 r = random(50,100)
-#Размер окна и цвет фона
 def setup():
     background(0)
     size(1200,600)
 #Само рисование
 def draw():
-    #Что бы не говорил что не правильно
     global r
-    #Заливается текст
     fill(255)
-    #Сам текст
     textSize(20)
     text("e = reset", 10, 60)
     text("r = swap to 3D", 10, 80)
