@@ -1,0 +1,10 @@
+ff=open('terxt2.txt','r')
+f1=ff.readline()
+ff.close()
+f=open('terxt1.txt','r')
+f2=f.readline()
+f.close()
+a=f2+f1
+fff=open('texter.txt','w')
+fff.write(a)
+fff.close()
