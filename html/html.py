@@ -1,0 +1,6 @@
+f=open('Created.html','w')
+f.write('<html>\n <head>\n')
+title=input('Input title: ')
+f.write('<meta charset="utf-8>\n<title>'+title+'\n')
+caption=input('Input caption: ')
+f.write('</head>\n<body>\n<h1>'+caption+'\n')
